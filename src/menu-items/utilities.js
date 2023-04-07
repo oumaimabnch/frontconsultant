@@ -39,6 +39,14 @@ const utilities = {
             type:'item',
             url:'/Create'
         },
+        {
+            id: 'PayslipTable',
+            title: 'Fiche de paie ',
+            type: 'item',
+            url: 'PayslipTable',
+            icon: icons.AntDesignOutlined,
+            breadcrumbs: false
+        },
     
 
         {

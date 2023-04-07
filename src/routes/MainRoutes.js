@@ -22,6 +22,7 @@ const Profile = Loadable(lazy(() => import('pages/components-overview/Profile'))
 const Consultants =Loadable(lazy(() => import('pages/components-overview/Consultants')));
 //const AddUser = Loadable(Lazy(()=> import('pages/components-overview/AddUser')));
 const Createpassword =Loadable(lazy(() => import('pages/components-overview/Createpassword')));
+const PayslipTable =Loadable(lazy(() => import('pages/components-overview/PayslipTable')));
 
 // ==============================|| MAIN ROUTING ||============================== //
 
@@ -55,6 +56,10 @@ const MainRoutes = {
         {
             path: 'Consultants',
             element: <Consultants />
+        },
+        {
+            path: 'PayslipTable',
+            element: <PayslipTable />
         },
        
         
